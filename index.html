@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+ <link rel="stylesheet" type="text/css" href="styles/index.css">
+ <!--<script type="text/javascript" href="scripts/index.js"></script>-->
+ <head>
+ 	<audio id="audio">
+  	 <source src="audio/bubblewrappop.mp3" type="audio/mp3">
+  	</audio>
+ 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>index page</title>
+ </head>
+ <body>
+	<h1>Clicc the picture below to pop bubble wrap</h1>
+	<img src="images/blends.png" onclick="playaudio()" width="80%" align-self="center">
+ </body>
+ <script type="text/javascript">
+ 	var audio = document.getElementById("audio");
+ 	function playaudio() {
+        audio.play();
+ 	}
+ </script>
+</html>
